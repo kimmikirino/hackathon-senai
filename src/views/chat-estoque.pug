@@ -1,0 +1,10 @@
+extends ../components/base.pug
+
+block content 
+    ul.chat-messages
+    form.chat-send
+        textarea.chat-field
+        button.btn.chat-send(type='button')
+            <i class="fa fa-paper-plane" aria-hidden="true"></i>
+
+    script(src='chat-estoque.js')

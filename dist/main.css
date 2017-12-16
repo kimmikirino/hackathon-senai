@@ -1,0 +1,91 @@
+.cadastro .fa{
+    font-size: 25px;
+}
+
+.cadastro .validade  {
+    position: relative;
+}
+.cadastro .validade .fa-camera{
+    font-size: 20px;
+    position: absolute;
+    right: 19px;
+    bottom: 10px;
+}
+
+.cadastro .btn {
+    margin: 15px;
+}
+
+.cadastro h5 {
+    margin: 15px 0;
+}
+
+
+a.btn-outline-success.salvar {
+    color: #4caf50;
+}
+
+a.btn-outline-danger.cancelar {
+    color: #f44336;
+}
+
+.listagem .fa{
+    color: black;
+}
+
+.chat-messages {
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-message {
+    width: 80%;
+    background-color: rgba(30, 139, 195, .85);
+    border: 1px solid rgba(30, 139, 195);
+    border-radius: 1.5rem;
+    color: #fff;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+.chat-message + .chat-message { margin-top: .75rem; }
+
+.chat-message.-bot {
+    align-self: flex-start;
+    background-color: rgba(30, 139, 195, .85);
+    border: 1px solid rgba(30, 139, 195);
+}
+
+.chat-message.-user {
+    align-self: flex-end;
+    background-color: rgba(65, 65, 65, .85);
+    border: 1px solid rgba(65, 65, 65);
+}
+
+.chat-field {
+    width: 85%;
+    border: 1px solid rgba(30, 139, 195, .85);;
+    border-radius: .60rem;
+}
+
+.chat-send.btn {
+    bottom: 18px;
+    font-size: 20px;
+}
+
+.chat-field:focus {
+    outline: none;
+}
+
+.chat-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.brand {
+    font-family: 'VT323', monospace;
+    font-size:1.7rem;
+}
